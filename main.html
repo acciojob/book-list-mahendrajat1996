@@ -4,10 +4,39 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		table,td,th {
+			border-collapse:collapse;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 align="center">My<b style="color:blueviolet;">Book</b>List</h1>
+	<form>
+
+     <div>
+		Title<input type="title" id="title"><br>
+		author<input type="author" id="author"> <br>
+		 isbn<input type="isbn" id="isbn">
+		 
+	 </div>
+		<div>
+			<button type="submit" id="submit">Submit</button>
+		</div>
+		<div>
+			<table>
+               <thead>
+				   <th>Title</th>
+				    <th>Author</th>
+				    <th>ISBN#</th>
+			   </thead>
+				
+			</table>
+		</div>
+	</form>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
